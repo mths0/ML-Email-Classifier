@@ -1,7 +1,9 @@
 # ML Email Classifier 🚀
 
-[![Made with ❤️ by Muhannad](https://img.shields.io/badge/Made%20By-Muhannad-blue)](https://github.com/mths0)
-[![License](https://img.shields.io/github/license/mths0/ML-Email-Classifier)](LICENSE)
+[![Made with ❤️ by mths0](https://img.shields.io/badge/Made%20By-mths0-blue)](https://github.com/mths0)
+[![Made with ❤️ by Saudll](https://img.shields.io/badge/Made%20By-Saudll-blue)](https://github.com/Saudll)
+
+
 
 This project is a **Machine Learning-based Email Classifier** that detects whether an email is **Spam** or **Ham (Not Spam)** using a **Multinomial Naïve Bayes** model trained on a text dataset.
 
@@ -22,7 +24,33 @@ The main goal is to **build an accurate spam detection system** using:
 
 ## 📂 Project Structure
 
-├── LICENSE <- Open-source license ├── README.md <- Project overview ├── data │ ├── raw <- Raw dataset (not pushed if large) │ └── external <- External data if added │ ├── models <- Saved trained models (e.g., spam_classifier.pkl) │ ├── notebooks <- Exploratory data analysis and experiments │ ├── references <- Supporting material (data dictionaries, resources) │ ├── reports │ └── figures <- Generated visualizations (charts, graphs) │ ├── requirements.txt <- List of Python libraries used │ └── src <- Source code ├── init.py ├── dataset.py <- Data loading and preprocessing ├── modeling │ ├── init.py │ ├── train.py <- Training the Naïve Bayes model │ └── predict.py <- Inference and prediction scripts └── services └── init.py
+<pre>
+├── LICENSE                <- Open-source license
+├── README.md              <- Project overview
+├── data
+│   ├── raw                <- Raw dataset (not pushed if large)
+│   └── external           <- External data if added
+│
+├── models                 <- Saved trained models (e.g., spam_classifier.pkl)
+│
+├── notebooks              <- Exploratory data analysis and experiments
+│
+├── references             <- Supporting material (data dictionaries, resources)
+│
+├── reports
+│   └── figures            <- Generated visualizations (charts, graphs)
+│
+├── requirements.txt       <- List of Python libraries used
+│
+└── src                    <- Source code
+    ├── __init__.py
+    ├── dataset.py         <- Data loading and preprocessing
+    ├── modeling
+    │   ├── __init__.py
+    │   ├── train.py       <- Training the Naïve Bayes model
+    │   └── predict.py     <- Inference and prediction scripts
+    └── services
+        └── __init__.py
 
 yaml
 Copy
@@ -88,31 +116,16 @@ matplotlib
 
 seaborn
 
-📜 License
-This project is licensed under the terms of the MIT license.
+
 
 🙌 Credits
-Created with ❤️ by Muhannad Alshahrani
+Created with ❤️ by mohannad and Saud
 
 yaml
 Copy
 Edit
 
----
 
-# ✅ What you can do now:
-
-- Copy this README into your `README.md` file.
-- (Optional) Add a nice small project image at the top later (like a spam filter icon).
-
----
-
-# 🚀 Extra Offer:
-
-Would you like me to also prepare:
-- A small **`requirements.txt`** refresh
-- A small **badge** like `accuracy: 99%` for your GitHub page?
-- A **sample output screenshot** to put in README?
 
 It would make your GitHub look **next level professional**! 🔥🌟  
 Just say "yes"! 🚀
