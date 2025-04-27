@@ -51,7 +51,7 @@ The main goal is to **build an accurate spam detection system** using:
     │   └── predict.py     <- Inference and prediction scripts
     └── services
         └── __init__.py
-
+</pre>
 yaml
 Copy
 Edit
