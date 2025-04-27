@@ -52,9 +52,6 @@ The main goal is to **build an accurate spam detection system** using:
     └── services
         └── __init__.py
 </pre>
-yaml
-Copy
-Edit
 
 ---
 
@@ -127,5 +124,4 @@ Edit
 
 
 
-It would make your GitHub look **next level professional**! 🔥🌟  
-Just say "yes"! 🚀
+
