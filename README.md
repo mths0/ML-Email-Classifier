@@ -25,32 +25,32 @@ The main goal is to **build an accurate spam detection system** using:
 ## 📂 Project Structure
 
 <pre>
-├── LICENSE                <- Open-source license
-├── README.md              <- Project overview
+├── LICENSE                
+├── README.md              
 ├── data
-│   ├── raw                <- Raw dataset (not pushed if large)
-│   └── external           <- External data if added
+│   ├── raw                
+│   └── external           
 │
-├── models                 <- Saved trained models (e.g., spam_classifier.pkl)
+├── models                 <- Saved trained models
 │
-├── notebooks              <- Exploratory data analysis and experiments
+├── notebooks              
 │
-├── references             <- Supporting material (data dictionaries, resources)
+├── references             
 │
 ├── reports
-│   └── figures            <- Generated visualizations (charts, graphs)
+│   └── figures            
 │
 ├── requirements.txt       <- List of Python libraries used
 │
-└── src                    <- Source code
-    ├── __init__.py
-    ├── dataset.py         <- Data loading and preprocessing
-    ├── modeling
-    │   ├── __init__.py
-    │   ├── train.py       <- Training the Naïve Bayes model
-    │   └── predict.py     <- Inference and prediction scripts
+└── src                    
+    ├── spam_email_classifier.py
+    ├── data_analys.ipynb          
+    ├── GUI.py
+    │   
+    │   
+    │   
     └── services
-        └── __init__.py
+        
 </pre>
 
 ---
