@@ -37,7 +37,8 @@ The main goal is to **build an accurate spam detection system** using:
 ├── references             
 │
 ├── reports
-│   └── figures            
+│   ├── figures 
+│   └── csc 361 Final report.pdf   <- report
 │
 ├── requirements.txt       <- List of Python libraries used
 │
