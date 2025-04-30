@@ -1,13 +1,12 @@
-# ML Email Classifier 🚀
+# ML Email Classifier 
 
 [![Made with ❤️ by mths0](https://img.shields.io/badge/Made%20By-mths0-blue)](https://github.com/mths0)
 [![Made with ❤️ by Saudll](https://img.shields.io/badge/Made%20By-Saudll-blue)](https://github.com/Saudll)
 
 
 
-This project is a **Machine Learning-based Email Classifier** that detects whether an email is **Spam** or **Ham (Not Spam)** using a **Multinomial Naïve Bayes** model trained on a text dataset.
+This project is a **Machine Learning-based Email Classifier** that detects whether an email is **Spam** or **Ham (Not Spam)** using a **Multinomial Naïve Bayes** model trained on labled email dataset.
 
-It is structured based on a simplified **Cookiecutter Data Science** format and ready for deployment.
 
 ---
 
@@ -97,7 +96,7 @@ Here’s a summary of the experiments:
 - Without balancing the dataset, the model missed a lot of spam (low recall 66%).
 - Adding n-grams helped the model detect spam **phrases** (like "click here" or "free money").
 - Fine-tuning the `alpha` parameter increased confidence without overfitting.
-- The final model detects **both spam and ham** emails almost perfectly.
+- The final model detects **both spam and ham** emails good enogh.
 
 ---
 
